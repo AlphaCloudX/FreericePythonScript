@@ -9,7 +9,8 @@ import time
 # zoom to 250%, freerice.com and has to be english
 
 dictionary = PyDictionary()
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Michael\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'<File path to Tesseract .exe| For example: C:\Users\Michael\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+>'
 
 # fullscreen
 # im=ImageGrab.grab()
